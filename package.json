@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "serve": "nodemon app.js",
-    "general": "nodemon binary_search.js"
+    "general": "nodemon binary_search.js",
+    "start":"node app.js"
   },
   "author": "ashish belide",
   "license": "ISC",
