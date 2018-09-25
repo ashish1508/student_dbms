@@ -27,6 +27,9 @@ app.use('/branch',branch_router);
 app.use('/hostel',hostel_router);
 app.use('/subject',subject_router);
 app.use('/student',student_router);
+app.get('/',function(req,res)){
+	res.redirect('/student');
+}
 app.listen(process.env.PORT||8080,function(){
 	console.log("running on port 3000");
 });
